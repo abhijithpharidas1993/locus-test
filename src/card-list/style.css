@@ -1,0 +1,46 @@
+
+.card-list{
+    max-height: 300px;
+    overflow-y: hidden;
+    width: 100%;
+    
+}
+.place{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.item{
+    position: relative;
+    box-sizing: border-box;
+    padding: 10px;
+    border-bottom: 1px solid rgba(129,136,123,.2);;
+    /* border: 1px solid black; */
+}
+.item-no-result{
+    padding: 40px 0;
+   text-align: center;
+   color:rgb(129,136,123);
+    
+}
+.item-selected{
+    background-color: rgb(255, 255, 220);
+}
+.item-id{
+    font-size: 1rem;
+    font-weight: bold;
+}
+.item-name, .item-address,.item-items{
+    color:rgb(129,136,123);
+    padding: 2px 0;
+    font-size: .8rem;
+}
+.item-name{
+    font-style: italic;
+}
+.item-items{
+    padding: 5px 0;
+    border-top: 1px solid rgba(129,136,123,.2);
+    border-bottom: 1px solid rgba(129,136,123,.2);
+}
