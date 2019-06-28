@@ -3,7 +3,7 @@
     max-height: 300px;
     overflow-y: hidden;
     width: 100%;
-    
+    border-top: 1px solid rgba(129,136,123,.2);;
 }
 .place{
     position: absolute;
@@ -16,7 +16,7 @@
     box-sizing: border-box;
     padding: 10px;
     border-bottom: 1px solid rgba(129,136,123,.2);;
-    /* border: 1px solid black; */
+   
 }
 .item-no-result{
     padding: 40px 0;
@@ -43,4 +43,14 @@
     padding: 5px 0;
     border-top: 1px solid rgba(129,136,123,.2);
     border-bottom: 1px solid rgba(129,136,123,.2);
+}
+
+.item-items::before{
+    content: "\2022";
+  color: rgb(86,138,238);
+  font-weight: bold;
+  display: inline-block; 
+  width: 1em;
+  font-size: 1.2rem
+  
 }

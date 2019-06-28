@@ -4,6 +4,13 @@ import './style.css';
 
 const items = [
   {
+    id: "123-s2-234",
+    name: "Abhijith Haridas",
+    items: ["ps4", "tv"],
+    address: "2nd Cross, 9th Main, xyz Apartment",
+    pincode: "686605"
+  },
+  {
     id: "123-s2-546",
     name: "John Jacobs",
     items: ["bucket", "bottle"],

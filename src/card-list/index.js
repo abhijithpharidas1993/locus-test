@@ -29,7 +29,7 @@ export default class CardList extends Component {
   }
 
   blueWord(sentance){
-    return sentance.replace(new RegExp(this.props.searchText, 'ig'), `<span style="color:blue;">${this.props.searchText}</span>`);
+    return sentance.replace(new RegExp(this.props.searchText, 'ig'), `<span style="color:rgb(86,138,238);">${this.props.searchText}</span>`);
   }
   render() {
     let { items } = this.props;
